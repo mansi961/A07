@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amy Chua - San Joaquin Valley Town Hall</title>
+  <link rel="stylesheet" href="../styles/main.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      padding: 20px;
+      position: relative;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .logo img {
+      height: 60px;
+    }
+
+    .season {
+      background-color: #ffffff;
+      color: #333;
+      font-weight: bold;
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 12px;
+      margin-top: 10px;
+    }
+
+    main {
+      padding: 60px 20px;
+    }
+
+    .icon {
+      font-size: 60px;
+      color: #ff9800;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    a.return-link {
+      display: inline-block;
+      margin-top: 40px;
+      text-decoration: none;
+      color: #2575fc;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="../images/logo.png" alt="Town Hall Logo" />
+    </div>
+    <h1>San Joaquin Valley Town Hall</h1>
+    <div class="season">Celebrating our 75th Year</div>
+  </header>
+
+  <main>
+    <div class="icon">🚧</div>
+    <h2>Amy Chua</h2>
+    <p>This page is currently under construction.</p>
+    <p>Check back soon for more information.</p>
+
+    <a class="return-link" href="../index.html">&larr; Return to Home page</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Name, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+  </footer>
+
+</body>
+</html>
