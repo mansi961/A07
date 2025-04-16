@@ -1,31 +1,45 @@
-/* Example of Linear Gradient for header */
-header {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    padding: 20px;
+:root {
+	--global-color-1: #800000;
+}
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+		
 }
 
-#logo {
-    width: 150px;
-    height: auto;
+
+a:hover,
+a:focus {
+	font-style: italic;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+em.shadow {
+	text-shadow: 1px 1px var(--global-color-1);
+}
+/* the styles for the header */
+header img {
+	
+	float: left;
+	
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+header h2{
+	color: var(--global-color-1);
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+main h1 {
+	font-size: 150%;
+}
+main h2 {
+	color: var(--global-color-1);
+	font-size: 130%;
+}
+main h3 {
+	font-size: 105%;
 }
 
-header .header-gradient {
-    text-align: center;
-    padding: 50px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
+/* the styles for the footer */
